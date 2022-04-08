@@ -30,8 +30,7 @@ export const AddTransaction = () => {
       <div className="form-control">
         <label htmlFor="amount"
           >Shuma <br />
-          (negative - shpenzim, pozitive - të hyra)</label
-        >
+          (negative: shpenzim, pozitive: të hyra) </label>
         <input type="number" value={amount} onChange={(e)=>setAmount(e.target.value)} placeholder="Shëno shumën..." />
       </div>
       <button className="btn">Shto transaksionin</button>
